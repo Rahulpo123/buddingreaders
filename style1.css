@@ -1,0 +1,73 @@
+@import url("style.css");
+
+
+#flamingo .flame{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#flamingo .flame .poems{
+    display: flex;
+    flex-direction: column;
+}
+#flamingo .flame .proses{
+    display: flex;
+    flex-direction: column;
+}
+#flamingo .flame *{
+    margin: 1rem 2rem;
+}
+#flamingo .flame h1{
+    color: darkolivegreen;
+}
+#flamingo .flame a{
+    font-size: 1.2rem;
+
+}
+#flamingo .flame a:hover{
+    color: grey;
+}
+#flamingo p{
+    margin: 1rem 3rem;
+    color: grey;
+}
+/*-------------responsive-----------*/
+@media only screen and (max-width: 500px){
+    #flamingo .flame{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        
+    }
+    #flamingo .flame .poems{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+    #flamingo .flame .proses{
+        display: flex;
+        flex-direction: column;
+    }
+    #flamingo .flame *{
+        margin: .4rem .8rem;
+    }
+    #flamingo .flame h1{
+        color: darkolivegreen;
+        font-size: .9rem;
+    }
+    #flamingo .flame a{
+        font-size: 1.2rem;
+    
+    }
+    #flamingo .flame a:hover{
+        color: grey;
+    }
+    #flamingo p{
+        margin: 1rem 3rem;
+        color: grey;
+        font-size: .7rem;
+    }
+    #flamingo .flame a{
+        font-size: .6rem;
+    }
+    
+}
+
